@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pilih_kota"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#00796B"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="30dp"
+        android:text="Pilih Kota Anda"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+
+    <Button
+        android:onClick="to_pilih_transportasi"
+        android:layout_marginTop="2dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:text="Bandung"
+        android:paddingLeft="30dp"
+        android:background="@drawable/landmark_bandung"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:text="Jakarta"
+        android:paddingLeft="30dp"
+        android:background="@drawable/landmark_jakarta"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:text="Bekasi"
+        android:paddingLeft="30dp"
+        android:background="@drawable/landmark_bekasi"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:text="Tangerang"
+        android:paddingLeft="30dp"
+        android:background="@drawable/landmark_tangerang"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        />
+
+
+
+
+</LinearLayout>

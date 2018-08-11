@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">InfoTrans</string>
+    <string name="nama_pangkalan">
+Pangkalan Ojek Ciganitri
+</string>
+    <string name="kang_ojek">
+arif hariadhy
+</string>
+    <string name="hp_ojek">
+085346918317
+</string>
+    <string name="alamat">
+Jl. Ciganitri No.01, Buah batu\nKab. Bulungan
+</string>
+    <string name="harga">
+Rp 9,000
+</string>
+    <string name="nama_ojol">
+Gojek
+</string>
+    <string name="tiba_dlm">
+13mnt
+</string>
+    <string name="rute">
+KWK - 04 Kebon Kelapa - Elang
+</string>
+    <string name="pemberhentian1">
+Terminal Kebon Kalapa
+</string>
+    <string name="pemberhentian2">
+Dwi Sartika (2)
+</string>
+    <string name="pemberhentian3">
+Stasiun Bandung (Kebon Kawung)
+</string>
+    <string name="pemberhentian4">
+ELANG
+</string>
+    <string name="tkh1">
+Pangkalan Ojek Ciganitri
+</string>
+    <string name="tkh_contact">
+085346918317
+</string>
+    <string name="tkh2">
+    Tarif Angkot ke Tujuan
+</string>
+    <string name="tkh_harga">
+Rp 3,000
+</string>
+</resources>
+

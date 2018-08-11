@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/image_placeholder1"
+        android:layout_width="385dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_placeholder1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:id="@+id/vector1"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vector1"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/vector2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vector2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/bellanofi_b"
+        android:layout_width="244dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/bellanofi_b"
+        android:textAppearance="@style/bellanofi_b"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/s1_sistem_i"
+        android:layout_width="176dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/s1_sistem_i"
+        android:textAppearance="@style/s1_sistem_i"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="132dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/nim"
+        android:textAppearance="@style/nim"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <TextView
+        android:id="@+id/daftar_mata"
+        android:layout_width="189dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/daftar_mata"
+        android:textAppearance="@style/daftar_mata"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/semester_1"
+        android:layout_width="72dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/semester_1"
+        android:textAppearance="@style/semester_1"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <View
+        android:id="@+id/ellipse"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <View
+        android:id="@+id/foto"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/foto"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <View
+        android:id="@+id/image_place"
+        android:layout_width="350dp"
+        android:layout_height="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_placeholder"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vector"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="335dp"
+        android:layout_height="403dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/product_nav"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="324dp"
+
+        android:background="#00000000"
+        />
+
+</android.support.constraint.ConstraintLayout>

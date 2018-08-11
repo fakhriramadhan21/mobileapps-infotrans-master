@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_home_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<com.google.android.gms.maps.MapView
+    android:id="@+id/mapView"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"></com.google.android.gms.maps.MapView>
+
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mapView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-25dp"
+            android:background="#ffffff" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/hijau"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ijo_rec"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/kiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/dari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_dari" />
+
+                <EditText
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Destinasi" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/dot" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/ic_ke" />
+
+                <EditText
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Tujuan" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_switch" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/order"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER"
+        android:background="@drawable/btn_kuning"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/infotransportasi"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Informasi Transportasi di Kota Ini."
+        android:background="@drawable/btn_kuning"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/infopangkalan"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Informasi Pangkalan Ojek di Kota Ini."
+        android:background="@drawable/btn_kuning"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        />
+    </LinearLayout>
+
+
+
+

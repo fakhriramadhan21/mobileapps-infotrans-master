@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Normal-->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="8dp"
+                />
+            <solid
+                android:color="#DF4930"
+                />
+        </shape>
+    </item>
+    <!--Kalo Dipencet-->
+    <item
+        android:state_pressed="true"
+        >
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="8dp"
+                />
+            <solid
+                android:color="#0c6aae"
+                />
+        </shape>
+    </item>
+</selector>

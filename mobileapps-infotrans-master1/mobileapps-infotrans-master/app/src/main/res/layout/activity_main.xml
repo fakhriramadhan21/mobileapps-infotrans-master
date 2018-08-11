@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="10"
+    >
+
+    <ImageView
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/logo_infotrans"
+        />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+        <Button
+            android:onClick="to_login"
+            android:textSize="17sp"
+            android:textColor="@color/ijo"
+            android:background="@drawable/btn_putih"
+            android:text="Masuk"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:textSize="13sp"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/btn_oren"
+            android:drawableLeft="@drawable/google_icon"
+            android:text="Masuk Menggunakan Google"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:background="@drawable/btn_ijo"
+            android:text="Masuk Tanpa Login"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:onClick="to_daftar"
+
+        >
+
+        <TextView
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="Belum Punya Akun ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="Daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
